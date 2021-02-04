@@ -34,6 +34,7 @@ class Game:
             self.current_pile += 1
             if self.current_pile >= len(self.deck.deck):
                 self.win = True
+                Game.win(self.player_turn)
         return
 
 
