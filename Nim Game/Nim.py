@@ -21,7 +21,7 @@ class Game:
     @staticmethod
     def win(winner):
         print(winner.name, "is a winner!")
-        exit(0)
+        return
 
     def play_turn(self):
         if self.player_turn is None:
